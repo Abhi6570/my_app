@@ -1,0 +1,166 @@
+/* Footer Buttons Section */
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.arrow-btn {
+  padding: 8px;
+  background: #dcdcdc;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  
+  cursor: pointer;
+}
+
+.save-btn {
+  background: #4caf50;
+  color:  #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Print Button */
+.print-btn {
+  padding: 10px 20px;
+  background:  #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  justify-content: left;
+}
+
+/* Container */
+.app-container {
+  width: 350px;
+  margin: 20px auto;
+  justify-content:left ;
+}
+
+/* Section */
+.section {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn,
+.refresh-btn {
+  padding: 5px 10px;
+  background: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Record Info */
+.record-info {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Input Field */
+.input-field {
+  margin-bottom: 10px;
+}
+
+.input-field label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+/* QC Section */
+.qc-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.qc-btn {
+  background: #4caf50;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qc-pass input {
+  margin-right: 5px;
+}
+
+/* Footer Buttons */
+.footer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.back-btn,
+.save-btn,
+.print-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn {
+  background: #dcdcdc;
+}
+
+.save-btn { 
+  padding-left: 5px;
+  padding-right: 10px;
+  background: #4caf50;
+  color: white;
+}
+
+.print-btn {
+  background: #4caf50;
+  color: white;
+}
